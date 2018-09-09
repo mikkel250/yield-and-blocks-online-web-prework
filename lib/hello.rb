@@ -5,6 +5,8 @@ def hello_t(arr)
       yield arr[i]
       i = i + 1
     end
+  else
+    puts "Hey! No block was given!"
   arr
 end
 
